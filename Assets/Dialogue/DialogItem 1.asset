@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
+  m_Name: DialogItem 1
+  m_EditorClassIdentifier: 
+  Name: "\u041C\u0438\u0441\u0442\u0435\u0440\u0425"
+  HeroText: "\u042D\u0442\u043E \u043C\u0438\u0440 \u043F\u043E\u0441\u043B\u0435
+    \u0432\u0441\u0435\u043E\u0431\u0449\u0435\u0433\u043E \u043A\u043E\u043B\u043B\u0430\u043F\u0441\u0430."
+  Back: {fileID: 0}
+  Next: {fileID: 11400000, guid: d8dbd4fe1b820524bbd1ab45c4cbbc0a, type: 2}
+  questions: []
+  ShowHeros: 0100
