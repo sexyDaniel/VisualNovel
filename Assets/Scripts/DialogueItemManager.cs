@@ -9,7 +9,8 @@ public class DialogueItemManager : MonoBehaviour
     public Text NameCharacter;
     public GameObject Continue;
     public GameObject Back;
-    public Image imagecontaner;
+    public Image Background;
+    public Image CharacterBackground;
     public GUISkin skin;
     public Text text;
     public Animator[] animators;
@@ -17,6 +18,8 @@ public class DialogueItemManager : MonoBehaviour
 
     void Start()
     {
+        Background.sprite = answerNode.Background;
+        CharacterBackground.sprite = answerNode.CharacterImage;
         UpdateUi();
     }
     void OnGUI()
@@ -36,6 +39,10 @@ public class DialogueItemManager : MonoBehaviour
     }
     public void UpdateUi()
     {
+        if (answerNode.Background!=null)
+            Background.sprite = answerNode.Background;
+        if (answerNode.CharacterImage != null)
+            CharacterBackground.sprite = answerNode.CharacterImage;
         Animation();
         StartCoroutine(GetChar(answerNode.HeroText));
         //imagecontaner.sprite = answerNode.Bckground;

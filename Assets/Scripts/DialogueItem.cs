@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "DialogItem", menuName = "Create New DialogItem")]
 public class DialogueItem : ScriptableObject
@@ -11,6 +12,8 @@ public class DialogueItem : ScriptableObject
     public DialogueItem Next;
     public Question[] questions;
     public bool[] ShowHeros;
+    public Sprite CharacterImage;
+    public Sprite Background;
 }
 [System.Serializable]
 public class Question

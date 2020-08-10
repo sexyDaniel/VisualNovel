@@ -22,4 +22,6 @@ MonoBehaviour:
     question: {fileID: 11400000, guid: b135c078b37d23845bb873454d1a3886, type: 2}
   - text: "\u0427\u0442\u043E \u0437\u0434\u0435\u0441\u044C \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442?"
     question: {fileID: 11400000, guid: 3b3d131944735c64c8b82cc4e4295708, type: 2}
-  ShowHeros: 0100
+  ShowHeros: 
+  CharacterImage: {fileID: 0}
+  Background: {fileID: 0}
