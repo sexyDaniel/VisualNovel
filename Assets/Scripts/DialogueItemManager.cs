@@ -29,7 +29,7 @@ public class DialogueItemManager : MonoBehaviour
         {
             for (int i = 0; i < answerNode.questions.Length; i++)
             {
-                if (GUI.Button(new Rect(Screen.width / 2-Screen.width / 10, Screen.height- Screen.height/5+ i * 45, Screen.width / 5, 45), answerNode.questions[i].text,a))
+                if (GUI.Button(new Rect(Screen.width / 10, Screen.height- Screen.height/5+ i * 45, Screen.width - Screen.width / 5, 45), answerNode.questions[i].text,a))
                 {
                     answerNode = answerNode.questions[i].question;
                     UpdateUi();
