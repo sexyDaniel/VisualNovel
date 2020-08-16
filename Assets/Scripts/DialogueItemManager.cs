@@ -11,6 +11,7 @@ public class DialogueItemManager : MonoBehaviour
     public GameObject Back;
     public Image Background;
     public Image CharacterBackground;
+    public Image CharacterBackground1;
     public GUISkin skin;
     public Text text;
     public Animator[] animators;
@@ -20,53 +21,28 @@ public class DialogueItemManager : MonoBehaviour
     {
         Background.sprite = answerNode.Background;
         CharacterBackground.sprite = answerNode.CharacterImage;
+        CharacterBackground1.sprite = answerNode.CharacterImage2;
         UpdateUi();
     }
     void OnGUI()
     {
-        GUIStyle a = skin.button;
         if (answerNode.questions.Length != 0)
         {
-            for (int i = 0; i < answerNode.questions.Length; i++)
-            {
-                if (GUI.Button(new Rect(Screen.width / 10, Screen.height- Screen.height/5+ i * 45, Screen.width - Screen.width / 5, 45), answerNode.questions[i].text,a))
-                {
-                    answerNode = answerNode.questions[i].question;
-                    UpdateUi();
-                }
-            }
+            ShowReplica(skin);
         }
+        ShowButtons();
     }
     public void UpdateUi()
     {
+        NameCharacter.text = answerNode.Name;
         if (answerNode.Background!=null)
             Background.sprite = answerNode.Background;
         if (answerNode.CharacterImage != null)
             CharacterBackground.sprite = answerNode.CharacterImage;
+        if (answerNode.CharacterImage2 != null)
+            CharacterBackground1.sprite = answerNode.CharacterImage2;
         Animation();
         StartCoroutine(GetChar(answerNode.HeroText));
-        //imagecontaner.sprite = answerNode.Bckground;
-        if (answerNode.Next != null)
-        {
-            Continue.SetActive(true);
-            NameCharacter.text = answerNode.Name;
-            if (answerNode.Back != null)
-            {
-                Back.SetActive(true);
-            }
-            else Back.SetActive(false);
-        }
-        else if (answerNode.Back != null)
-        {
-            NameCharacter.text = answerNode.Name;
-            Continue.SetActive(false);
-            Back.SetActive(true);
-        }
-        else
-        {
-            Continue.SetActive(false);
-            Back.SetActive(false);
-        }
     }
 
     IEnumerator GetChar(string s)
@@ -97,11 +73,51 @@ public class DialogueItemManager : MonoBehaviour
         UpdateUi();
     }
 
+    public bool CheckLength()
+    {
+        return answerNode.HeroText.Length == text.text.Length;
+    }
+
     public void Animation()
     {
         for (int i = 0; i < answerNode.ShowHeros.Length; i++)
         {
             animators[i].SetBool("ShowCharacter", answerNode.ShowHeros[i]);
+        }
+    }
+
+    public void ShowReplica(GUISkin skin)
+    {
+        for (int i = 0; i < answerNode.questions.Length; i++)
+        {
+            if (CheckLength() && GUI.Button(new Rect(Screen.width / 10, Screen.height - Screen.height / 5 + i * 45, Screen.width - Screen.width / 5, 45), answerNode.questions[i].text, skin.button))
+            {
+                answerNode = answerNode.questions[i].question;
+                UpdateUi();
+            }
+        }
+    }
+
+    public void ShowButtons()
+    {
+        if (answerNode.Next != null&& CheckLength())
+        {
+            Continue.SetActive(true);
+            if (answerNode.Back != null)
+            {
+                Back.SetActive(true);
+            }
+            else Back.SetActive(false);
+        }
+        else if (answerNode.Back != null&& CheckLength())
+        {
+            Continue.SetActive(false);
+            Back.SetActive(true);
+        }
+        else
+        {
+            Continue.SetActive(false);
+            Back.SetActive(false);
         }
     }
 }

@@ -13,6 +13,7 @@ public class DialogueItem : ScriptableObject
     public Question[] questions;
     public bool[] ShowHeros;
     public Sprite CharacterImage;
+    public Sprite CharacterImage2;
     public Sprite Background;
 }
 [System.Serializable]
