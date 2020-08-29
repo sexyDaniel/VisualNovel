@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
+  m_Name: 4-p
+  m_EditorClassIdentifier: 
+  Name: "\u0421\u0442\u0438\u0432\u0435\u043D \u0414\u0436\u0438\u043D\u043A\u0441"
+  HeroText: "\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C, \u0434\u0435\u0442\u0435\u043A\u0442\u0438\u0432
+    \u0414\u0436\u043E! \u0427\u0442\u043E-\u0442\u043E \u0432\u044B \u0437\u0430\u0447\u0430\u0441\u0442\u0438\u043B\u0438
+    \u043A\u043E \u043C\u043D\u0435!                "
+  Back: {fileID: 0}
+  Next: {fileID: 0}
+  questions:
+  - text: "\u041D\u0435 \u0442\u0430\u043A \u0443\u0436 \u0438 \u0447\u0430\u0441\u0442\u043E
+      \u044F \u043A \u0412\u0430\u043C \u0445\u043E\u0436\u0443. \u041C\u043D\u0435
+      \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u0430 \u0432\u0441\u0451
+      \u0442\u0430 \u0436\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F!    "
+    question: {fileID: 11400000, guid: f2947f5dd7b3232438743487606e811b, type: 2}
+  - text: "\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C.     "
+    question: {fileID: 11400000, guid: d7b9f505485601048a26828cd7b4287b, type: 2}
+  - text: "\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C. \u0412\u044B
+      \u043F\u0440\u0438\u044F\u0442\u043D\u044B\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A,
+      \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u043A \u0412\u0430\u043C \u044F
+      \u043C\u043E\u0433\u0443 \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u044C \u043A\u0430\u0436\u0434\u044B\u0439
+      \u0434\u0435\u043D\u044C. \u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0437\u0430
+      \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0441\u043C\u0435\u0440\u0442\u0435\u0439?    "
+    question: {fileID: 11400000, guid: abd0a9e0091c925418a494d7e954b456, type: 2}
+  ShowHeros: 01
+  CharacterImage: {fileID: 21300000, guid: 80f7c9f7a89bb3c42aa25e5a4075dae3, type: 3}
+  CharacterImage2: {fileID: 21300000, guid: 80f7c9f7a89bb3c42aa25e5a4075dae3, type: 3}
+  Background: {fileID: 0}

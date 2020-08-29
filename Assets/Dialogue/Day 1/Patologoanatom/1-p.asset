@@ -19,7 +19,7 @@ MonoBehaviour:
     \u0412\u044B \u043A\u0442\u043E? \u0418 \u0447\u0442\u043E \u0412\u0430\u043C
     \u043D\u0443\u0436\u043D\u043E?               "
   Back: {fileID: 0}
-  Next: {fileID: 0}
+  Next: {fileID: 11400000, guid: 1bc33680323e7dd4ea2c0e9d3a6f9234, type: 2}
   questions:
   - text: "\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C. \u042F
       \u0434\u0435\u0442\u0435\u043A\u0442\u0438\u0432 \u0414\u0436\u043E. (\u043F\u043E\u043A\u0430\u0437\u0430\u0442\u044C
@@ -35,4 +35,5 @@ MonoBehaviour:
     question: {fileID: 11400000, guid: 71b9506ff89ff3e4fb7700e5556c259b, type: 2}
   ShowHeros: 01
   CharacterImage: {fileID: 21300000, guid: 8cee9bc2b4ed882408cca10aafb7a588, type: 3}
+  CharacterImage2: {fileID: 0}
   Background: {fileID: 21300000, guid: 686b14a4290722c44abf25e76c9f197e, type: 3}

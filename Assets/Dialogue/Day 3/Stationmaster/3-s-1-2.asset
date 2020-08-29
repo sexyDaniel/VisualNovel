@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
+  m_Name: 3-s-1-2
+  m_EditorClassIdentifier: 
+  Name: "\u0414\u0435\u0440\u0435\u043A"
+  HeroText: "\u041D\u0415\u0422! \u0412\u041E\u041A\u0417\u0410\u041B \u0421\u0410\u041C\u0410\u042F
+    \u0412\u0410\u0416\u041D\u0410\u042F \u041E\u0420\u0413\u0410\u041D\u0418\u0417\u0410\u0426\u0418\u042F
+    \u0412 \u0413\u041E\u0420\u041E\u0414\u0415! "
+  Back: {fileID: 11400000, guid: ba0b61c811eb35041a3b8068b36168a4, type: 2}
+  Next: {fileID: 0}
+  questions: []
+  ShowHeros: 
+  CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
+  Background: {fileID: 0}

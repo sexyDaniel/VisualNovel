@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
+  m_Name: 4-s-1
+  m_EditorClassIdentifier: 
+  Name: "\u0414\u0435\u0440\u0435\u043A"
+  HeroText: "\u041A\u0430\u043A \u0434\u0443\u043C\u0430\u0435\u0448\u044C, \u043A\u0430\u043A\u0430\u044F
+    \u0431\u0443\u043A\u0432\u0430 \u043B\u0443\u0447\u0448\u0435? \u041C, \u0412
+    \u0438\u043B\u0438 \u041F!    "
+  Back: {fileID: 11400000, guid: 1bc33680323e7dd4ea2c0e9d3a6f9234, type: 2}
+  Next: {fileID: 0}
+  questions:
+  - text: "\u0412  "
+    question: {fileID: 11400000, guid: 1dbc0ffc235bc5f4ebcf3bd2a1082fdf, type: 2}
+  - text: "\u041C "
+    question: {fileID: 11400000, guid: bfec21df0fa8f8c4987d3527232c2680, type: 2}
+  - text: "\u041F "
+    question: {fileID: 11400000, guid: fa58898cb42e02a479153158ece59192, type: 2}
+  ShowHeros: 
+  CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
+  Background: {fileID: 0}
