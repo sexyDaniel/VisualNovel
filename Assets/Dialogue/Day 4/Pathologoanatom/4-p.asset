@@ -34,6 +34,6 @@ MonoBehaviour:
       \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0441\u043C\u0435\u0440\u0442\u0435\u0439?    "
     question: {fileID: 11400000, guid: abd0a9e0091c925418a494d7e954b456, type: 2}
   ShowHeros: 01
-  CharacterImage: {fileID: 21300000, guid: 80f7c9f7a89bb3c42aa25e5a4075dae3, type: 3}
+  CharacterImage: {fileID: 21300000, guid: b3d040d034352d541ad8b7406047e1f2, type: 3}
   CharacterImage2: {fileID: 21300000, guid: 80f7c9f7a89bb3c42aa25e5a4075dae3, type: 3}
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: 84b69b128c2dc594599b5954ad2a5b50, type: 3}

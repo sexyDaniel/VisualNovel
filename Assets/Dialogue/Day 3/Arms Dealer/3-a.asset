@@ -30,7 +30,7 @@ MonoBehaviour:
       \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0443\u0431\u0438\u043B\u0438 \u0438\u0437
       \u043E\u0440\u0443\u0436\u0438\u044F \u043B\u044E\u0434\u0435\u0439.     "
     question: {fileID: 11400000, guid: 0c92c588e2c568e47be0c6fe651b90bc, type: 2}
-  ShowHeros: 
-  CharacterImage: {fileID: 0}
+  ShowHeros: 01
+  CharacterImage: {fileID: 21300000, guid: 480fa2203b6d7a841a770a51a5fe640a, type: 3}
   CharacterImage2: {fileID: 0}
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: 3297b4ebbf400a841afd23dac9dd46ee, type: 3}

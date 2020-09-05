@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
+  m_Name: 5-b-1
+  m_EditorClassIdentifier: 
+  Name: "\u0420\u043E\u0431\u0435\u0440\u0442"
+  HeroText: "\u0414\u0435\u0442\u0435\u043A\u0442\u0438\u0432, \u0443 \u043C\u0435\u043D\u044F
+    \u043E\u043F\u044F\u0442\u044C \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430
+    \u0441 \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u043E\u0439! \u041D\u0443\u0436\u043D\u043E
+    \u043D\u0430\u0439\u0442\u0438 \u043A\u043E\u0440\u0435\u043D\u044C \u0443\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F
+    : x-17=2x-34.             "
+  Back: {fileID: 11400000, guid: fd29fede5ef9cbf44813c4e614ee5d88, type: 2}
+  Next: {fileID: 0}
+  questions:
+  - text: 7?
+    question: {fileID: 11400000, guid: 5dc95dd787ee494409c2bfc091301019, type: 2}
+  - text: 17?
+    question: {fileID: 11400000, guid: 2aec32419e6ffda4196094b2c2289c01, type: 2}
+  - text: 5!
+    question: {fileID: 11400000, guid: 2ec56f80753429047a5030f375531c23, type: 2}
+  ShowHeros: 
+  CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
+  Background: {fileID: 0}

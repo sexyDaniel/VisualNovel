@@ -30,5 +30,6 @@ MonoBehaviour:
       \u0443\u043C\u0435\u0440\u0448\u0438\u0445 \u043B\u044E\u0434\u0435\u0439? "
     question: {fileID: 11400000, guid: ebaf9419551de03499777cfa4b8e10ac, type: 2}
   ShowHeros: 
-  CharacterImage: {fileID: 21300000, guid: 8cee9bc2b4ed882408cca10aafb7a588, type: 3}
-  Background: {fileID: 21300000, guid: 686b14a4290722c44abf25e76c9f197e, type: 3}
+  CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
+  Background: {fileID: 0}

@@ -18,6 +18,7 @@ MonoBehaviour:
   Back: {fileID: 0}
   Next: {fileID: 11400000, guid: 050c25ddce1b4dd49a429c731f9d54f4, type: 2}
   questions: []
-  ShowHeros: 01
-  CharacterImage: {fileID: 21300000, guid: 55521326659703f4ba5b3d063d373bb9, type: 3}
-  Background: {fileID: 21300000, guid: 686b14a4290722c44abf25e76c9f197e, type: 3}
+  ShowHeros: 00
+  CharacterImage: {fileID: 21300000, guid: de7482b0e256611429b49a44a11ad421, type: 3}
+  CharacterImage2: {fileID: 0}
+  Background: {fileID: 21300000, guid: 84b69b128c2dc594599b5954ad2a5b50, type: 3}

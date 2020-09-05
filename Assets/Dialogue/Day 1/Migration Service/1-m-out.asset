@@ -27,6 +27,7 @@ MonoBehaviour:
   Back: {fileID: 0}
   Next: {fileID: 11400000, guid: 5a37837e491a1ef4b8228fb44ccabe5a, type: 2}
   questions: []
-  ShowHeros: 01
-  CharacterImage: {fileID: 21300000, guid: 474e6f4737a06ca4da2479f08deaa057, type: 3}
+  ShowHeros: 00
+  CharacterImage: {fileID: 21300000, guid: 529598895c61aea458c61133f53b7a51, type: 3}
+  CharacterImage2: {fileID: 0}
   Background: {fileID: 0}

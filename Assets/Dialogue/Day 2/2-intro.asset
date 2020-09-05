@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
   m_Name: 2-intro
   m_EditorClassIdentifier: 
-  Name: 
-  HeroText: 
+  Name: "\u0414\u0436\u043E"
+  HeroText: "\u0414\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E, \u043B\u044E\u0431\u0438\u043C\u044B\u0439
+    \u0433\u043E\u0440\u043E\u0434. \u0417\u0430 \u0440\u0430\u0431\u043E\u0442\u0443."
   Back: {fileID: 0}
   Next: {fileID: 11400000, guid: 4275cb29f142f9d4e9276d490a21d1a8, type: 2}
   questions: []
   ShowHeros: 
   CharacterImage: {fileID: 0}
   CharacterImage2: {fileID: 0}
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: 0e178da749b1d1c41b729e92c6a4b3f1, type: 3}

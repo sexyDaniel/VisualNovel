@@ -20,9 +20,8 @@ MonoBehaviour:
     \u0441 \u043A\u0440\u0443\u0433\u043B\u0435\u043D\u044C\u043A\u043E\u0439 \u0441\u0443\u043C\u043C\u043E\u0439."
   Back: {fileID: 11400000, guid: 16397fc59e34f8744bdfcda838301d6e, type: 2}
   Next: {fileID: 0}
-  questions:
-  - text: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"
-    question: {fileID: 11400000, guid: bf571700a6abeef4bb170acbecec095c, type: 2}
+  questions: []
   ShowHeros: 
   CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
   Background: {fileID: 0}

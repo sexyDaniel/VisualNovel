@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa683243643a204791c93f45028bb9f, type: 3}
+  m_Name: outro-bad-1
+  m_EditorClassIdentifier: 
+  Name: "\u041C\u044D\u0440"
+  HeroText: "\u0422\u044B \u0443\u0432\u0435\u0440\u0435\u043D, \u0447\u0442\u043E
+    \u0434\u0435\u043B\u0430 \u043E\u0431\u0441\u0442\u043E\u044F\u0442 \u0438\u043C\u0435\u043D\u043D\u043E
+    \u0442\u0430\u043A, \u0414\u0436\u043E? \u0427\u0442\u043E \u0436... \u0412 \u0442\u0430\u043A\u043E\u043C
+    \u0441\u043B\u0443\u0447\u0430\u0435, \u0441\u043F\u0430\u0441\u0438\u0431\u043E
+    \u0437\u0430 \u043F\u043E\u043C\u043E\u0449\u044C. \u0421\u0434\u0435\u043B\u0430\u044E
+    \u0432\u0441\u0451, \u0447\u0442\u043E \u043E\u0442 \u043C\u0435\u043D\u044F
+    \u0437\u0430\u0432\u0438\u0441\u0438\u0442."
+  Back: {fileID: 0}
+  Next: {fileID: 0}
+  questions:
+  - text: "\u041F\u0440\u043E\u0449\u0430\u0439\u0442\u0435."
+    question: {fileID: 11400000, guid: f55202b6bad777e4f9f23f76426bcf49, type: 2}
+  - text: "\u0412\u0441\u0435\u0433\u043E \u0434\u043E\u0431\u0440\u043E\u0433\u043E,
+      \u0442\u043E\u0432\u0430\u0440\u0438\u0449 \u043C\u044D\u0440. \u0411\u044B\u043B
+      \u0440\u0430\u0434 \u043F\u043E\u043C\u043E\u0447\u044C."
+    question: {fileID: 11400000, guid: f55202b6bad777e4f9f23f76426bcf49, type: 2}
+  - text: "\u0414\u043E \u0441\u0432\u0438\u0434\u0430\u043D\u0438\u044F."
+    question: {fileID: 11400000, guid: f55202b6bad777e4f9f23f76426bcf49, type: 2}
+  ShowHeros: 
+  CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
+  Background: {fileID: 0}

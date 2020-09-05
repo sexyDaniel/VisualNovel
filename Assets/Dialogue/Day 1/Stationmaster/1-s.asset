@@ -43,6 +43,6 @@ MonoBehaviour:
       \u043F\u0440\u0438\u0435\u0445\u0430\u043B\u043E \u0441\u0435\u0433\u043E\u0434\u043D\u044F.    "
     question: {fileID: 11400000, guid: 238c66eaacab9a6408957648c0dc8e0c, type: 2}
   ShowHeros: 01
-  CharacterImage: {fileID: 21300000, guid: 8cee9bc2b4ed882408cca10aafb7a588, type: 3}
+  CharacterImage: {fileID: 21300000, guid: 3ec861f0f179c364abbd27e1f475ae41, type: 3}
   CharacterImage2: {fileID: 21300000, guid: 8cee9bc2b4ed882408cca10aafb7a588, type: 3}
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: e42c696a8d9b34f48b71a87b972fe520, type: 3}

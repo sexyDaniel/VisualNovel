@@ -20,9 +20,7 @@ MonoBehaviour:
     \t "
   Back: {fileID: 11400000, guid: 238c66eaacab9a6408957648c0dc8e0c, type: 2}
   Next: {fileID: 0}
-  questions:
-  - text: ...
-    question: {fileID: 11400000, guid: 3f1932e1794ca4b448bd5e1cd2e05f6a, type: 2}
+  questions: []
   ShowHeros: 
   CharacterImage: {fileID: 0}
   CharacterImage2: {fileID: 0}

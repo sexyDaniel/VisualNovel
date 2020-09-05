@@ -23,4 +23,4 @@ MonoBehaviour:
   ShowHeros: 
   CharacterImage: {fileID: 0}
   CharacterImage2: {fileID: 0}
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: 0e178da749b1d1c41b729e92c6a4b3f1, type: 3}

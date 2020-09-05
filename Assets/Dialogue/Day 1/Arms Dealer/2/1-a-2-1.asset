@@ -19,9 +19,8 @@ MonoBehaviour:
     \u0421\u043E\u0440\u0440\u0438"
   Back: {fileID: 11400000, guid: 16397fc59e34f8744bdfcda838301d6e, type: 2}
   Next: {fileID: 0}
-  questions:
-  - text: . . .
-    question: {fileID: 11400000, guid: bf571700a6abeef4bb170acbecec095c, type: 2}
+  questions: []
   ShowHeros: 
   CharacterImage: {fileID: 0}
+  CharacterImage2: {fileID: 0}
   Background: {fileID: 0}

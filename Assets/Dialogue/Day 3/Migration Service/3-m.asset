@@ -30,7 +30,7 @@ MonoBehaviour:
   - text: "\u0412\u044B \u0432\u0435\u0434\u0435\u0442\u0435 \u043F\u043E\u0434\u0441\u0447\u0435\u0442
       \u0437\u0430\u0435\u0445\u0430\u0432\u0448\u0438\u0445, \u043B\u044E\u0434\u0435\u0439? "
     question: {fileID: 11400000, guid: 55021c47b0108b3458f71d9bc4906254, type: 2}
-  ShowHeros: 
-  CharacterImage: {fileID: 0}
+  ShowHeros: 01
+  CharacterImage: {fileID: 21300000, guid: 5b96fec545cbf9e46a101cc3855cc6b7, type: 3}
   CharacterImage2: {fileID: 0}
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: ae0da54e950b9054f89396e6a8a43620, type: 3}
